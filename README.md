@@ -1,2 +1,2 @@
 # diatom
-# RunandPlot for Figure 3 and 5.
+# RunandPlot.m for Figure 3 and 5.
