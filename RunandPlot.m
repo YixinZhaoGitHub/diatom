@@ -1,5 +1,6 @@
-
-%Seasonal scenario output sim1&sim2&sim3&sim4 [sim1,sim2,sim3,sim4]=runandplot(1).
+%Directly run
+%Only can change "agg": aggregation/no aggregation.   "season" does't work.
+%All simulations are seasonal forcing.
 function [sim1,sim2,sim3,sim4] = RunandPlot(season,agg)
 
 arguments
