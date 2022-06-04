@@ -1,5 +1,5 @@
 
-%Run for Figure 3 and 5 in the report
+%Seasonal scenario output sim1&sim2&sim3&sim4 [sim1,sim2,sim3,sim4]=runandplot(1).
 function [sim1,sim2,sim3,sim4] = RunandPlot(season,agg)
 
 arguments
@@ -12,12 +12,12 @@ switch agg
     case 1
  sim1=runDiatom(5,1,1);%Si:N 1
  sim2=runDiatom(5,2,1);%Si:N 0.7
-% sim3=runDiatom(5,3,1);%Si:N 0.4
-% sim4=runDiatom(5,4,1);%Si:N 0.1
+ sim3=runDiatom(5,3,1);%Si:N 0.4
+ sim4=runDiatom(5,4,1);%Si:N 0.1
 % sim1=sim3;
 % sim2=sim3;
- sim3=sim1;
- sim4=sim1;
+% sim3=sim1;
+% sim4=sim1;
     case 0
 sim1=runDiatom(5,1,0);%Si:N 1
 sim2=runDiatom(5,2,0);%Si:N 0.7
